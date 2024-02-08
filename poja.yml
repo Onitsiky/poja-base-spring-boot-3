@@ -1,4 +1,4 @@
-app_name: poja-base
+app_name: poja-base-spring-3
 cli_version: 10.8.0
 custom_java_deps: poja-custom-java-deps.txt
 custom_java_env_vars: poja-custom-java-env-vars.txt

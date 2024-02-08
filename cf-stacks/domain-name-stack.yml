@@ -1,5 +1,5 @@
 AWSTemplateFormatVersion: 2010-09-09
-Description: poja-base - Domain name
+Description: poja-base-spring-3 - Domain name
 
 Parameters:
   DomainName:
