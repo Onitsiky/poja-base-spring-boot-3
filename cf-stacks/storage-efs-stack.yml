@@ -49,7 +49,7 @@ Resources:
     Type: AWS::EFS::MountTarget
     Properties:
       FileSystemId: !Ref Filesystem
-      SubnetId: !Sub '{{resolve:ssm:/poja-big-sum-correct/subnet1/id}}'
+      SubnetId: !Sub '{{resolve:ssm:/poja-big-sum-correct/subnet2/id}}'
       SecurityGroups:
         - !Sub '{{resolve:ssm:/poja-big-sum-correct/sg/id}}'
 

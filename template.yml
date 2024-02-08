@@ -16,7 +16,7 @@ Globals:
         - !Sub '{{resolve:ssm:/poja-big-sum-correct/sg/id}}'
       SubnetIds:
         - !Sub '{{resolve:ssm:/poja-big-sum-correct/subnet1/id}}'
-        - !Sub '{{resolve:ssm:/poja-big-sum-correct/subnet1/id}}'
+        - !Sub '{{resolve:ssm:/poja-big-sum-correct/subnet2/id}}'
     Environment:
       Variables:
         ENV: !Ref Env
