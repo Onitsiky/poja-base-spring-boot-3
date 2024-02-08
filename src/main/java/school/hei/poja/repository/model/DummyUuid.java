@@ -1,7 +1,7 @@
 package school.hei.poja.repository.model;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
 import lombok.Getter;
 import lombok.Setter;
 import school.hei.poja.PojaGenerated;
@@ -11,5 +11,6 @@ import school.hei.poja.PojaGenerated;
 @Getter
 @Setter
 public class DummyUuid {
-  @Id private String id;
+  @Id
+  private String id;
 }
